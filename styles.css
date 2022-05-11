@@ -1,20 +1,20 @@
 .page {
-    display: block;
-    position: relative;
-    background-color: #FFFFFF;
-    width: 1440px;
-    height: 3913px;
+display: block;
+position: relative;
+background-color: #FFFFFF;
+width: 1440px;
+height: 3913px;
 }
 
 .navBar {
-    width: 1440px;
-    height: 116px;
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    background: #FAFAFA;
+width: 1440px;
+height: 116px;
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+background: #FAFAFA;
 }
 
 .logo {
@@ -118,17 +118,17 @@ text-align: center;
 }
 
 .cont1 {
-    display: flex;
-    width: 1440px;
-    height: 700px;
-    background-color: #F1F1F2;
-    justify-content: space-between;
+display: flex;
+width: 1440px;
+height: 700px;
+background-color: #F1F1F2;
+justify-content: space-between;
 }
 
 .item1 {
-    width: 720px;
-    height: 700px;
-    background: #F2F2F2;
+width: 720px;
+height: 700px;
+background: #F2F2F2;
 }
 
 .text1 {
@@ -158,14 +158,9 @@ color: #000000;
 
 
 .item2 {
-    width: 720px;
-    height: 700px;
-    background: #F2F2F2;
-}
-
-img {
-    width: 100%;
-    height: 100%;
+width: 720px;
+height: 700px;
+background: #F2F2F2;
 }
 
 .butBox1 {
@@ -196,33 +191,263 @@ text-transform: uppercase;
 }
 
 @font-face {
-    font-family: 'Gilroy';
-    src: url(fonts/Gilroy-Regular.ttf);
+font-family: 'Gilroy';
+src: url(fonts/Gilroy-Regular.ttf);
 }
 
 @font-face {
-    font-family: "Homemade Apple";
-    src: url(fonts/HomemadeApple-Regular.ttf)
+font-family: "Homemade Apple";
+src: url(fonts/HomemadeApple-Regular.ttf)
 }
 
 @font-face {
-    font-family: 'Girloy-Semibold';
-    src: url(fonts/Gilroy-Semibold.ttf);
+font-family: 'Girloy-Semibold';
+src: url(fonts/Gilroy-Semibold.ttf);
 }
 
-.const2 {
-    display: flex;
-    Width: 1440px;
-    Height: 600px;
-    justify-content: space-between;
-    background: #F1F1F2;
+@font-face {
+    font-family: 'Roboto-reglar';
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+.cont2 {
+display: flex;
+Width: 1440px;
+Height: 600px;
+justify-content: space-between;
+background: #F1F1F2;
 }
 
 .it1 {
-    height: 618.5955001321701px;
-    width: 733.1470101213037px;
-    left: -2.47589111328125px;
-    top: -8.181396484375px;
-    border-radius: 0px;
+height: 618.5955001321701px;
+width: 733.1470101213037px;
+left: -2.47589111328125px;
+top: -8.181396484375px;
+border-radius: 0px;
+}
 
+.it2 {
+width: 720px;
+height: 600px;
+}
+
+.tex1 {
+font-family: 'Gilroy';
+font-weight: 400;
+font-size: 32px;
+margin-top: 20%;
+margin-left: 15%;
+}
+
+.tex2 {
+width: 441px;
+height: 169px;
+margin-top: 23px;
+margin-bottom: 199px;
+margin-left: 107px;
+font-family: 'Gilroy';
+font-weight: 400;
+font-size: 20px;
+line-height: 140.62%;
+text-align: justify;
+color: #000000;
+}
+
+.butBox2 {
+height: 60px;
+width: 200px;
+border-radius: 5px;
+border: 1px solid #F7941E;
+margin-top: -160px;
+margin-left: 107px;
+}
+
+.tex3 {
+font-family: 'Gilroy';
+font-weight: 400;
+font-size: 18px;
+line-height: 134.77%;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #F7941E;
+margin-top: 18px;
+}
+
+.cont3 {
+display: flex;
+justify-content: center;
+height: 820px;
+width: 1440px;
+}
+
+.te1 {
+    position: absolute;
+    width: 422px;
+    height: 39px;
+    left: calc(50% - 422px/2);
+    margin-top: 96px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px; 
+    text-align: center;
+    color: #000000;
+}
+
+.te2 {
+position: absolute;
+width: 454px;
+height: 25px;
+margin-top: 158px;
+font-family: 'Gilroy';
+font-weight: 400;
+font-size: 18px;
+line-height: 135.94%;
+text-align: center;
+color: #000000;
+}
+
+.mig {
+margin-top: 240px;
+}
+
+.img1 {
+    margin-right: 30px;
+}
+
+.img2 {
+    margin-right: 30px;
+}
+
+.img3 {
+    margin-right: 30px;
+}
+
+.block1 {
+position: absolute;
+height: 166px;
+width: 270px;
+background: #ffffff;
+margin-top: 510px;
+margin-right: 62.5%;
+}
+
+.blT1 {
+margin-top: 12%;
+margin-left: 7%;
+font-family: 'Gilroy';
+font-weight: 400;
+font-size: 20px;
+color: #000000;
+}
+
+.blT2 {
+    position: absolute;
+    left: 8.89%;
+    right: 66.3%;
+    top: 89.91%;
+    bottom: 5.5%;
+    font-family: 'Roboto-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.block2 {
+position: absolute;
+height: 166px;
+width: 270px;
+background: #ffffff;
+margin-top: 510px;
+margin-right: 20.8%;
+}
+
+.blT3 {
+margin-top: 12%;
+margin-left: 7%;
+font-family: 'Gilroy';
+font-weight: 400;
+font-size: 20px;
+color: #000000;
+}
+
+.blT4 {
+position: absolute;
+left: 8.89%;
+right: 66.3%;
+top: 89.91%;
+bottom: 5.5%;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #000000;
+}
+
+.block3 {
+    position: absolute;
+    height: 166px;
+    width: 270px;
+    background: #ffffff;
+    margin-top: 510px;
+    margin-right: -21%;
+}
+
+.blT5 {
+margin-top: 12%;
+margin-left: 7%;
+font-family: 'Gilroy';
+font-weight: 400;
+font-size: 20px;
+color: #000000;
+}
+
+.blT6 {
+position: absolute;
+left: 8.89%;
+right: 66.3%;
+top: 89.91%;
+bottom: 5.5%;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #000000;
+}
+
+.block4 {
+    position: absolute;
+    height: 166px;
+    width: 270px;
+    background: #ffffff;
+    margin-top: 510px;
+    margin-right: -62.5%;
+}
+
+.blT7 {
+margin-top: 12%;
+margin-left: 7%;
+font-family: 'Gilroy';
+font-weight: 400;
+font-size: 20px;
+color: #000000;
+}
+
+.blT8 {
+position: absolute;
+left: 8.89%;
+right: 66.3%;
+top: 89.91%;
+bottom: 5.5%;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #000000;
 }
