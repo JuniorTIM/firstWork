@@ -1,0 +1,228 @@
+.page {
+    display: block;
+    position: relative;
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 3913px;
+}
+
+.navBar {
+    width: 1440px;
+    height: 116px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #FAFAFA;
+}
+
+.logo {
+position: absolute;
+left: 5.56%;
+right: 91.6%;
+top: 33.62%;
+bottom: 32.76%;
+font-family: "Homemade Apple";
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #231F20;
+}
+
+.lHome {
+position: absolute;
+left: 38.47%;
+right: 58.12%;
+top: 32.81%;
+bottom: 32.81%;
+font-family: 'Gilroy';
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+
+.lAbout {
+position: absolute;
+left: 44.03%;
+right: 50.76%;
+top: 32.81%;
+bottom: 32.81%;
+font-family: 'Gilroy';
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+
+.lServices {
+position: absolute;
+left: 51.39%;
+right: 43.89%;
+top: 32.81%;
+bottom: 32.81%;
+font-family: 'Gilroy';
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+
+.lBlogs {
+position: absolute;
+left: 58.26%;
+right: 38.54%;
+top: 32.81%;
+bottom: 32.81%;
+font-family: 'Gilroy';
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+
+.butBox {
+box-sizing: border-box;
+left: -2.86%;
+margin-right: 4.29%;
+margin-top: 2.5%;
+margin-bottom: 10%;
+border: 1px solid #F7941E;
+border-radius: 5px;
+height: 43.5px;
+width: 150px;
+float: right;
+}
+
+.find {
+font-family: 'Gilroy';
+font-weight: 400;
+font-size: 18px;
+text-transform: uppercase;
+color: #F7941E;
+padding-top: 6%;
+text-align: center;
+}
+
+.cont1 {
+    display: flex;
+    width: 1440px;
+    height: 700px;
+    background-color: #F1F1F2;
+    justify-content: space-between;
+}
+
+.item1 {
+    width: 720px;
+    height: 700px;
+    background: #F2F2F2;
+}
+
+.text1 {
+width: 433px;
+height: 206px;
+margin-left: 162px;
+margin-top: 154px;
+font-family: 'Gilroy-Semibold';
+font-weight: 600;
+font-size: 56px;
+line-height: 69px;
+color: #000000;
+}
+
+.text2 {
+position: absolute;
+width: 422px;
+height: 57px;
+left: 162px;
+top: 396px;
+font-family: 'Gilroy';
+font-weight: 400;
+font-size: 20px;
+line-height: 140.62%;
+color: #000000;
+}
+
+
+.item2 {
+    width: 720px;
+    height: 700px;
+    background: #F2F2F2;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.butBox1 {
+margin-left: 22%;
+right: 0%;
+margin-top: 20%;
+bottom: 0%;
+background: #F7941E;
+border-radius: 5px;
+height: 60px;
+width: 200px;
+left: 0px;
+top: 0px;
+border-radius: 5px;
+}
+
+.find2 {
+height: 22px;
+padding-top: 20px;
+font-family: 'Gilroy';
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Homemade Apple";
+    src: url(fonts/HomemadeApple-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Girloy-Semibold';
+    src: url(fonts/Gilroy-Semibold.ttf);
+}
+
+.const2 {
+    display: flex;
+    Width: 1440px;
+    Height: 600px;
+    justify-content: space-between;
+    background: #F1F1F2;
+}
+
+.it1 {
+    height: 618.5955001321701px;
+    width: 733.1470101213037px;
+    left: -2.47589111328125px;
+    top: -8.181396484375px;
+    border-radius: 0px;
+
+}
