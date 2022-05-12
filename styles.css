@@ -36,6 +36,7 @@
     top: 20.3px;
 
 }
+
 .button-secondary {
     position: absolute;
     width: 140px;
@@ -48,8 +49,14 @@
     border: 1px solid #F7941E;
     border-radius: 5px;
     background-color: #FAFAFA;
-
 }
+
+.button-secondary:hover {
+    text-shadow: 2px 1px 1px #b9b3ac;
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
 .hero-side-image-right {
     display: flex;
     position: absolute;
@@ -108,8 +115,14 @@
     border-radius: 5px;
     color: #FFFFFF;
     border: 1px solid #F7941E;
-    
 }
+
+.button-primary:hover {
+    text-shadow: 2px 1px 1px #c5c3c2;
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
 .photo {
     height: 700px;
     width: 719px;
@@ -172,6 +185,13 @@
     border: 1px solid #F7941E;
     border-radius: 5px;
 }
+
+.button3:hover {
+    text-shadow: 2px 1px 1px #c5c3c2;
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
 .thx {
     position: absolute;
     left: 0%;
@@ -214,33 +234,36 @@ text-align: center;
 }
 
 .card1 {
-    position: absolute;
+position: absolute;
 width: 270px;
 height: 436px;
 left: calc(50% - 270px/2 - 450px);
 top: 247px;
-
-filter: drop-shadow(-12px 10px 15px rgba(0, 0, 0, 0.29));
 background-color: #FAFAFA;
 }
+
+/* .card1:hover {
+    filter: drop-shadow(-12px 10px 15px rgba(0, 0, 0, 0.29));
+    transform: scale(1.1);
+    transition: 0.2s;
+} */
+
 .BD {
     position: absolute;
 left: 8.89%;
 right: 8.89%;
 top: 67.43%;
 bottom: 27.06%;
-
 font-family: 'Gilroy';
 font-size: 20px;
 line-height: 24px;
 }
 .sm1 {
-    position: absolute;
+position: absolute;
 left: 8.89%;
 right: 66.3%;
 top: 89.91%;
 bottom: 5.5%;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -249,13 +272,20 @@ line-height: 19px;
 }
 
 .card2 {
-    position: absolute;
+position: absolute;
 width: 270px;
 height: 436px;
 left: calc(50% - 270px/2 - 150px);
 top: 247px;
 background-color:#FAFAFA ;
 }
+
+/*  .card2:hover {
+    filter: drop-shadow(-12px 10px 15px rgba(0, 0, 0, 0.29));
+    transform: scale(1.1);
+    transition: 0.2s;
+} */
+
 .anniversary {
     position: absolute;
 left: 8.89%;
@@ -288,8 +318,14 @@ height: 436px;
 left: calc(50% - 270px/2 + 150px);
 top: 247px;
 background-color:#FAFAFA ;
-
 }
+
+/* .card3:hover {
+    filter: drop-shadow(-12px 10px 15px rgba(0, 0, 0, 0.29));
+    transform: scale(1.1);
+    transition: 0.2s;
+} */
+
 .valentines-day {
     position: absolute;
 left: 8.89%;
@@ -316,12 +352,20 @@ line-height: 19px;
 }
 
 .card4 {
-    position: absolute;
+position: absolute;
 width: 270px;
 height: 436px;
 left: calc(50% - 270px/2 + 450px);
+background-color: #FAFAFA;
 top: 247px;
 }
+
+.cards:hover {
+    filter: drop-shadow(-12px 10px 15px rgba(0, 0, 0, 0.29));
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
 .xmas {
     position: absolute;
 left: 8.89%;
@@ -348,8 +392,8 @@ line-height: 19px;
 }
 
 .CTA-section {
-    display: flex;
-    position: absolute;
+display: flex;
+position: absolute;
 width: 1440px;
 height: 240px;
 left: 0px;
@@ -396,8 +440,15 @@ line-height: 140.62%;
     background-color: #231F20;
     border-radius: 5px;
 }
+
+.black:hover {
+    filter: drop-shadow(-12px 10px 15px rgba(0, 0, 0, 0.29));
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
 .button5 {
-    position: absolute;
+position: absolute;
 left: 69.79%;
 right: 16.32%;
 top: 40%;
@@ -408,16 +459,22 @@ border-radius: 5px;
 background-color: #F7941E;
 }
 
+.button5:hover {
+    filter: drop-shadow(-12px 10px 15px rgba(0, 0, 0, 0.29));
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
 .Posts-blog-top {
-    display: flex;
-    position: absolute;
+display: flex;
+position: absolute;
 width: 1440px;
 height: 860px;
 left: 0px;
 top: 2643px;
 }
 .group1 {
-    position: absolute;
+position: absolute;
 width: 507px;
 height: 87px;
 left: 467px;
@@ -506,19 +563,25 @@ color: #FFFFFF;
 }
 
 .blog-card1 {
-    position: absolute;
+position: absolute;
 left: 9.38%;
 right: 51.04%;
 top: 56.98%;
 bottom: 9.3%;
-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+background-color: #FAFAFA;
 }
+
+.blog-card1:hover {
+    filter: drop-shadow(-12px 10px 15px rgba(0, 0, 0, 0.29));
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
 .blog-card1 .title{
     left: 12.71%;
     right: 54.38%;
     top: 62.56%;
     bottom: 29.53%;
-    
     font-family: 'Gilroy';
     font-size: 24px;
     line-height: 140.62%;
@@ -547,12 +610,20 @@ margin-top: 5%;
 }
 
 .blog-card2 {
-    position: absolute;
+position: absolute;
 left: 51.04%;
 right: 9.38%;
 top: 56.98%;
 bottom: 9.3%;
+background-color: #FAFAFA;
 }
+
+.blog-card2:hover {
+    filter: drop-shadow(-12px 10px 15px rgba(0, 0, 0, 0.29));
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
 .blog-card2 .title {
     left: 54.38%;
     right: 12.71%;
