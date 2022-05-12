@@ -1,453 +1,804 @@
-.page {
-display: block;
-position: relative;
-background-color: #FFFFFF;
-width: 1440px;
-height: 3913px;
-}
-
-.navBar {
-width: 1440px;
-height: 116px;
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-background: #FAFAFA;
-}
-
-.logo {
-position: absolute;
-left: 5.56%;
-right: 91.6%;
-top: 33.62%;
-bottom: 32.76%;
-font-family: "Homemade Apple";
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 39px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #231F20;
-}
-
-.lHome {
-position: absolute;
-left: 38.47%;
-right: 58.12%;
-top: 32.81%;
-bottom: 32.81%;
-font-family: 'Gilroy';
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-display: flex;
-align-items: center;
-color: #000000;
-}
-
-.lAbout {
-position: absolute;
-left: 44.03%;
-right: 50.76%;
-top: 32.81%;
-bottom: 32.81%;
-font-family: 'Gilroy';
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-display: flex;
-align-items: center;
-color: #000000;
-}
-
-.lServices {
-position: absolute;
-left: 51.39%;
-right: 43.89%;
-top: 32.81%;
-bottom: 32.81%;
-font-family: 'Gilroy';
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-display: flex;
-align-items: center;
-color: #000000;
-}
-
-.lBlogs {
-position: absolute;
-left: 58.26%;
-right: 38.54%;
-top: 32.81%;
-bottom: 32.81%;
-font-family: 'Gilroy';
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-display: flex;
-align-items: center;
-color: #000000;
-}
-
-.butBox {
-box-sizing: border-box;
-left: -2.86%;
-margin-right: 4.29%;
-margin-top: 2.5%;
-margin-bottom: 10%;
-border: 1px solid #F7941E;
-border-radius: 5px;
-height: 43.5px;
-width: 150px;
-float: right;
-}
-
-.find {
-font-family: 'Gilroy';
-font-weight: 400;
-font-size: 18px;
-text-transform: uppercase;
-color: #F7941E;
-padding-top: 6%;
-text-align: center;
-}
-
-.cont1 {
-display: flex;
-width: 1440px;
-height: 700px;
-background-color: #F1F1F2;
-justify-content: space-between;
-}
-
-.item1 {
-width: 720px;
-height: 700px;
-background: #F2F2F2;
-}
-
-.text1 {
-width: 433px;
-height: 206px;
-margin-left: 162px;
-margin-top: 154px;
-font-family: 'Gilroy-Semibold';
-font-weight: 600;
-font-size: 56px;
-line-height: 69px;
-color: #000000;
-}
-
-.text2 {
-position: absolute;
-width: 422px;
-height: 57px;
-left: 162px;
-top: 396px;
-font-family: 'Gilroy';
-font-weight: 400;
-font-size: 20px;
-line-height: 140.62%;
-color: #000000;
-}
-
-
-.item2 {
-width: 720px;
-height: 700px;
-background: #F2F2F2;
-}
-
-.butBox1 {
-margin-left: 22%;
-right: 0%;
-margin-top: 20%;
-bottom: 0%;
-background: #F7941E;
-border-radius: 5px;
-height: 60px;
-width: 200px;
-left: 0px;
-top: 0px;
-border-radius: 5px;
-}
-
-.find2 {
-height: 22px;
-padding-top: 20px;
-font-family: 'Gilroy';
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-color: #FFFFFF;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-}
-
-@font-face {
-font-family: 'Gilroy';
-src: url(fonts/Gilroy-Regular.ttf);
-}
-
-@font-face {
-font-family: "Homemade Apple";
-src: url(fonts/HomemadeApple-Regular.ttf)
-}
-
-@font-face {
-font-family: 'Girloy-Semibold';
-src: url(fonts/Gilroy-Semibold.ttf);
-}
-
-@font-face {
-    font-family: 'Roboto-reglar';
-    src: url(fonts/Roboto-Regular.ttf);
-}
-
-.cont2 {
-display: flex;
-Width: 1440px;
-Height: 600px;
-justify-content: space-between;
-background: #F1F1F2;
-}
-
-.it1 {
-height: 618.5955001321701px;
-width: 733.1470101213037px;
-left: -2.47589111328125px;
-top: -8.181396484375px;
-border-radius: 0px;
-}
-
-.it2 {
-width: 720px;
-height: 600px;
-}
-
-.tex1 {
-font-family: 'Gilroy';
-font-weight: 400;
-font-size: 32px;
-margin-top: 20%;
-margin-left: 15%;
-}
-
-.tex2 {
-width: 441px;
-height: 169px;
-margin-top: 23px;
-margin-bottom: 199px;
-margin-left: 107px;
-font-family: 'Gilroy';
-font-weight: 400;
-font-size: 20px;
-line-height: 140.62%;
-text-align: justify;
-color: #000000;
-}
-
-.butBox2 {
-height: 60px;
-width: 200px;
-border-radius: 5px;
-border: 1px solid #F7941E;
-margin-top: -160px;
-margin-left: 107px;
-}
-
-.tex3 {
-font-family: 'Gilroy';
-font-weight: 400;
-font-size: 18px;
-line-height: 134.77%;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-color: #F7941E;
-margin-top: 18px;
-}
-
-.cont3 {
-display: flex;
-justify-content: center;
-height: 820px;
-width: 1440px;
-}
-
-.te1 {
+.Navigation-Bar {
+    display: flex;
+    width: 1440px;
+    height: 116px;
+    left: 0px;
+    top: 1px;
+    background-color: #FAFAFA;
     position: absolute;
-    width: 422px;
+}
+.Navigation-Bar .logo {
+    width: 41px;
     height: 39px;
-    left: calc(50% - 422px/2);
-    margin-top: 96px;
+    top: 39px;
+    left: 80px;
+    position: absolute;
+    font-family: "HomemadeApple-Regular";
+
+}
+.Navigation-center {
+    display: flex;
+    width: 1440px;
+    height: 61.87px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 23.33%;
+    bottom: 23.33%;
+}
+.Navigation-center .links {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 331px;
+    height: 21.27px;
+    left: 554px;
+    top: 20.3px;
+
+}
+.button-secondary {
+    position: absolute;
+    width: 140px;
+    height: 38.67px;
+    top: 17.19%;
+    left: 87.5%;
+    right: 2.78%;
+    bottom: 20.31%;
+    color: #F7941E;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+
+}
+.hero-side-image-right {
+    display: flex;
+    position: absolute;
+    height: 700px;
+    width: 1440px;
+    left: 0px;
+    top: 117px;
+    border-radius: 0px;
+    left: 0%;
+    background-color: #F1F1F2;
+    flex-direction: column;
+
+}
+.content {
+    
+    height: 411px;
+    width: 433px;
+    left: 162px;
+    top: 154px;
+    border-radius: 0px;
+    position: absolute;
+    
+
+}
+.content .title {
+   
+ height: 206px;
+ width: 433px;
+ left: 162px;
+ top: 154px;
+ font-family: 'Gilroy';
+ font-size: 56px;
+ line-height: 69px;
+ border-radius: nullpx;
+    
+    
+
+}
+.content .subtitle {
+    width: 422px;
+    height: 57px;
+    top: 396px;
+    left: 162px;
+    font-size: 20px;
+    line-height: 140.62%;
+    font-size: 20px;
+
+}
+.button-primary {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 162px;
+    top: 505px;
+    background-color: #F7941E;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: 1px solid #F7941E;
+    
+}
+.photo {
+    height: 700px;
+    width: 719px;
+    left: 721px;
+    top: 0px;
+    border-radius: 0px;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+}
+.Feature-split-right {
+    display: flex;
+    height: 600px;
+    width: 1440px;
+    left: 0px;
+    top: 817px;
+    position: absolute;
+    background-color: #F1F1F2;
+}
+.Feature-split-right .content {
+    
+    position: absolute;
+    height: 332px;
+    width: 441px;
+    left: 833px;
+    top: 164px;
+    bottom: 17.33%
+}
+.Feature-split-right .content .title {
+    height: 45px;
+    width: 194px;
+    left: 833px;
+    top: 164px;
+    right: 28.68%;
+    bottom: 65.17%;
     font-family: 'Gilroy';
-    font-weight: 400;
     font-size: 32px;
-    line-height: 38px; 
-    text-align: center;
-    color: #000000;
+    line-height: 140.62%;
+}
+.Feature-split-right .content .subtitle {
+    left: 57.85%;
+    right: 11.53%;
+    top: 38.67%;
+    bottom: 33.17%;
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 140.62%;
+    text-align: justify;
+    margin-top: 5%;
+}
+.button3 {
+    position: absolute;
+    left: 57.85%;
+    right: 28.26%;
+    top: 72.67%;
+    bottom: 17.33%;
+    color: #F7941E;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+}
+.thx {
+    position: absolute;
+    left: 0%;
+    right: 49.93%;
+    top: 0%;
+    bottom: 0%;
 }
 
-.te2 {
-position: absolute;
+.Posts-tall {
+    display: flex;
+    position: absolute;
+    width: 1440px;
+    height: 820px;
+    left: 0px;
+    top: 1417px;
+    background-color: #FFFFFF;
+}
+.Posts-tall .title {
+    position: absolute;
+width: 422px;
+height: 39px;
+left: calc(50% - 422px/2);
+top: 96px;
+font-family: 'Gilroy';
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+}
+.Posts-tall .subtitle {
+    position: absolute;
 width: 454px;
 height: 25px;
-margin-top: 158px;
+left: calc(50% - 454px/2);
+top: 158px;
+
 font-family: 'Gilroy';
-font-weight: 400;
 font-size: 18px;
 line-height: 135.94%;
 text-align: center;
-color: #000000;
 }
 
-.mig {
-margin-top: 240px;
-}
-
-.img1 {
-    margin-right: 30px;
-}
-
-.img2 {
-    margin-right: 30px;
-}
-
-.img3 {
-    margin-right: 30px;
-}
-
-.block1 {
-position: absolute;
-height: 166px;
-width: 270px;
-background: #ffffff;
-margin-top: 510px;
-margin-right: 62.5%;
-}
-
-.blT1 {
-margin-top: 12%;
-margin-left: 7%;
-font-family: 'Gilroy';
-font-weight: 400;
-font-size: 20px;
-color: #000000;
-}
-
-.blT2 {
+.card1 {
     position: absolute;
-    left: 8.89%;
-    right: 66.3%;
-    top: 89.91%;
-    bottom: 5.5%;
-    font-family: 'Roboto-regular';
-    font-style: normal;
-    font-weight: 400;
+width: 270px;
+height: 436px;
+left: calc(50% - 270px/2 - 450px);
+top: 247px;
+
+filter: drop-shadow(-12px 10px 15px rgba(0, 0, 0, 0.29));
+background-color: #FAFAFA;
+}
+.BD {
+    position: absolute;
+left: 8.89%;
+right: 8.89%;
+top: 67.43%;
+bottom: 27.06%;
+
+font-family: 'Gilroy';
+font-size: 20px;
+line-height: 24px;
+}
+.sm1 {
+    position: absolute;
+left: 8.89%;
+right: 66.3%;
+top: 89.91%;
+bottom: 5.5%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+}
+
+.card2 {
+    position: absolute;
+width: 270px;
+height: 436px;
+left: calc(50% - 270px/2 - 150px);
+top: 247px;
+background-color:#FAFAFA ;
+}
+.anniversary {
+    position: absolute;
+left: 8.89%;
+right: 8.89%;
+top: 67.43%;
+bottom: 27.06%;
+
+font-family: 'Gilroy';
+font-size: 20px;
+line-height: 24px;
+}
+.sm2 {
+    position: absolute;
+left: 8.89%;
+right: 66.3%;
+top: 89.91%;
+bottom: 5.5%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+}
+
+.card3 {
+    position: absolute;
+width: 270px;
+height: 436px;
+left: calc(50% - 270px/2 + 150px);
+top: 247px;
+background-color:#FAFAFA ;
+
+}
+.valentines-day {
+    position: absolute;
+left: 8.89%;
+right: 8.89%;
+top: 67.43%;
+bottom: 27.06%;
+
+font-family: 'Gilroy';
+font-size: 20px;
+line-height: 24px;
+}
+.sm3 {
+    position: absolute;
+left: 8.89%;
+right: 66.3%;
+top: 89.91%;
+bottom: 5.5%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+}
+
+.card4 {
+    position: absolute;
+width: 270px;
+height: 436px;
+left: calc(50% - 270px/2 + 450px);
+top: 247px;
+}
+.xmas {
+    position: absolute;
+left: 8.89%;
+right: 8.89%;
+top: 67.43%;
+bottom: 27.06%;
+
+font-family: 'Gilroy';
+font-size: 20px;
+line-height: 24px;
+}
+.sm4 {
+    position: absolute;
+left: 8.89%;
+right: 66.3%;
+top: 89.91%;
+bottom: 5.5%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+}
+
+.CTA-section {
+    display: flex;
+    position: absolute;
+width: 1440px;
+height: 240px;
+left: 0px;
+top: 2237px;
+background-color: #F7941E;
+box-sizing: border-box;
+}
+.group {
+    position: absolute;
+left: 16.32%;
+right: 61.11%;
+top: 33.75%;
+bottom: 28.75%;
+
+}
+.CTA-section .group .title {
+left: 16.32%;
+right: 61.11%;
+margin-top: -2.75%;
+bottom: 47.5%;
+
+font-family: 'Gilroy';
+font-size: 32px;
+line-height: 140.62%;
+}
+.CTA-section .group .subtitle {
+left: 16.32%;
+right: 62.01%;
+margin-top: -7%;
+padding-top: -10.5%;
+bottom: 28.75%;
+
+font-family: 'Gilroy';
+font-size: 32px;
+line-height: 140.62%;
+}
+.black {
+    position: absolute;
+    left: 54.79%;
+    right: 31.32%;
+    top: 40%;
+    bottom: 40%;
+    color: #FFFFFF;
+    background-color: #231F20;
+    border-radius: 5px;
+}
+.button5 {
+    position: absolute;
+left: 69.79%;
+right: 16.32%;
+top: 40%;
+bottom: 40%;
+color: #000000;
+border: 1px solid #000000;
+border-radius: 5px;
+background-color: #F7941E;
+}
+
+.Posts-blog-top {
+    display: flex;
+    position: absolute;
+width: 1440px;
+height: 860px;
+left: 0px;
+top: 2643px;
+}
+.group1 {
+    position: absolute;
+width: 507px;
+height: 87px;
+left: 467px;
+top: -78px;
+}
+.group1 .title {
+left: 35.35%;
+right: 35.35%;
+top: -9.07%;
+bottom: 104.53%;
+
+font-family: 'Gilroy';
+font-size: 32px;
+line-height: 38px;
+
+text-align: center;
+}
+.group1 .subtitle {
+    left: 32.43%;
+right: 32.36%;
+top: -1.86%;
+padding-top: 7%;
+bottom: 98.95%;
+
+font-family: 'Gilroy';
+font-size: 18px;
+line-height: 135.94%;
+
+text-align: center;
+}
+.blog-card-feature {
+    position: absolute;
+    left: 9.38%;
+    right: 9.38%;
+    top: 9.3%;
+    bottom: 47.67%;
+    background-color: #231F20;
+    display: flex;
+}
+
+.media {
+left: 9.38%;
+right: 62.85%;
+top: 9.3%;
+bottom: 47.67%;
+}
+
+.blog-card-feature .link {
+    left: 42.57%;
+    right: 51.18%;
+    top: 43.6%;
+    bottom: 53.37%;
+    margin-top: 15%;
+    font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+
+}
+.blog-card-feature .author {
+    left: 42.57%;
+right: 51.6%;
+top: 16.63%;
+bottom: 81.05%;
+
+font-family: 'Gilroy';
+font-size: 14px;
+line-height: 140.62%;
+
+
+color: #FFFFFF;
+}
+.blog-card-feature .title {
+    left: 42.57%;
+right: 23.26%;
+top: 22.09%;
+bottom: 63.37%;
+margin-top: 15%;
+margin-bottom: 15%;
+
+font-family: 'Gilroy';
+font-size: 48px;
+line-height: 58px;
+
+color: #FFFFFF;
+}
+
+.blog-card1 {
+    position: absolute;
+left: 9.38%;
+right: 51.04%;
+top: 56.98%;
+bottom: 9.3%;
+box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+.blog-card1 .title{
+    left: 12.71%;
+    right: 54.38%;
+    top: 62.56%;
+    bottom: 29.53%;
+    
+    font-family: 'Gilroy';
+    font-size: 24px;
+    line-height: 140.62%;
+}
+.blog-card1 .summary {
+    left: 12.71%;
+right: 54.38%;
+top: 72.33%;
+bottom: 19.3%;
+
+font-family: 'Gilroy';
+font-size: 18px;
+line-height: 140.62%;
+margin-top: 5%;
+}
+.blog-card1 .link {
+    left: 12.71%;
+    right: 82.43%;
+    top: 82.56%;
+    bottom: 15.12%;
+    
+    font-family: 'Gilroy';
     font-size: 14px;
-    line-height: 19px;
-    color: #000000;
+    line-height: 140.62%; 
+    margin-top: 15%;   
 }
 
-.block2 {
-position: absolute;
-height: 166px;
-width: 270px;
-background: #ffffff;
-margin-top: 510px;
-margin-right: 20.8%;
-}
-
-.blT3 {
-margin-top: 12%;
-margin-left: 7%;
-font-family: 'Gilroy';
-font-weight: 400;
-font-size: 20px;
-color: #000000;
-}
-
-.blT4 {
-position: absolute;
-left: 8.89%;
-right: 66.3%;
-top: 89.91%;
-bottom: 5.5%;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-color: #000000;
-}
-
-.block3 {
+.blog-card2 {
     position: absolute;
-    height: 166px;
-    width: 270px;
-    background: #ffffff;
-    margin-top: 510px;
-    margin-right: -21%;
+left: 51.04%;
+right: 9.38%;
+top: 56.98%;
+bottom: 9.3%;
+}
+.blog-card2 .title {
+    left: 54.38%;
+    right: 12.71%;
+    top: 62.56%;
+    bottom: 29.53%;
+    
+    font-family: 'Gilroy';
+    font-size: 24px;
+    line-height: 140.62%;
+}
+.blog-card2 .summary {
+    left: 54.38%;
+    right: 12.71%;
+    top: 72.33%;
+    bottom: 19.3%;
+    
+    font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 140.62%;
+}
+.blog-card2 .link {
+    left: 54.38%;
+    right: 40.76%;
+    top: 82.56%;
+    bottom: 15.12%;
+    
+    font-family: 'Gilroy';
+    font-size: 14px;
+    line-height: 140.62%;
+    margin-top: 10%;
 }
 
-.blT5 {
-margin-top: 12%;
-margin-left: 7%;
-font-family: 'Gilroy';
-font-weight: 400;
-font-size: 20px;
-color: #000000;
-}
 
-.blT6 {
-position: absolute;
-left: 8.89%;
-right: 66.3%;
-top: 89.91%;
-bottom: 5.5%;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-color: #000000;
-}
 
-.block4 {
+.center {
     position: absolute;
-    height: 166px;
-    width: 270px;
-    background: #ffffff;
-    margin-top: 510px;
-    margin-right: -62.5%;
+    width: 1440px;
+    height: 410px;
+    left: 0px;
+    top: 3503px;
 }
 
-.blT7 {
-margin-top: 12%;
-margin-left: 7%;
-font-family: 'Gilroy';
-font-weight: 400;
-font-size: 20px;
-color: #000000;
-}
-
-.blT8 {
+.frame1 {
 position: absolute;
-left: 8.89%;
-right: 66.3%;
-top: 89.91%;
-bottom: 5.5%;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-color: #000000;
+width: 296px;
+height: 40px;
+left: 572px;
+top: 243px;
 }
+
+.socoal-icons {
+position: absolute;
+width: 296px;
+height: 40px;
+left: 0px;
+top: 0px;
+}
+
+.PT {
+position: absolute;
+width: 40px;
+height: 40px;
+left: 256px;
+top: 0px;
+}
+
+.PTvector {
+position: absolute;
+left: 2%;
+right: 2%;
+top: 2%;
+bottom: 2%;
+}
+
+.YT {
+position: absolute;
+width: 40px;
+height: 40px;
+left: 192px;
+top: 0px;
+}
+
+.YTvector {
+position: absolute;
+left: 2%;
+right: 2%;
+top: 2%;
+bottom: 2%;
+}
+
+.IG {
+position: absolute;
+width: 40px;
+height: 40px;
+left: 128px;
+top: 0px;
+}
+
+.IGvector {
+position: absolute;
+left: 2%;
+right: 2%;
+top: 2%;
+bottom: 2%;
+}
+
+.TW {
+position: absolute;
+width: 40px;
+height: 40px;
+left: 64px;
+top: 0px;
+}
+
+.TWvector {
+position: absolute;
+left: 2%;
+right: 2%;
+top: 2%;
+bottom: 2%;
+}
+
+.Logo {
+    position: absolute;
+    visibility: hidden;
+    left: 39.93%;
+    right: 39.51%;
+    top: 8.29%;
+    bottom: 48.78%; 
+}
+.group7 {
+    position: absolute;
+width: 41px;
+height: 39px;
+left: 706px;
+top: 106px;
+}
+.group7 .logo {
+width: 41px;
+height: 39px;
+left: 706px;
+top: 106px;
+color: #F7941E;
+font-family: "HomemadeApple-Regular";
+}
+.links-left {
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+left: 28.19%;
+right: 60.76%;
+top: 28.05%;
+bottom: 67.07%;
+}
+.links-left .link1 {
+left: 28.19%;
+right: 69.17%;
+top: 28.05%;
+bottom: 67.07%;
+
+font-family: 'Gilroy';
+font-size: 14px;
+line-height: 140.62%;
+}
+.links-left .link2 {
+    left: 36.46%;
+    right: 60.76%;
+    top: 28.05%;
+    bottom: 67.07%;
+    
+    font-family: 'Gilroy';
+    font-size: 14px;
+    line-height: 140.62%;
+}
+
+.links-right {
+    display: flex;
+    position: absolute;
+left: 61.67%;
+right: 29.17%;
+top: 28.05%;
+bottom: 67.07%;
+justify-content: space-between;
+}
+
+.solid {
+    position: absolute;
+left: 15.28%;
+right: 15.28%;
+top: 45.85%;
+bottom: 54.15%;
+
+border: 1px solid #000000;
+}
+.copyright {
+    position: absolute;
+    left: 42.92%;
+right: 50.56%;
+top: 86.59%;
+bottom: 8.54%;
+
+font-family: 'Gilroy';
+font-size: 14px;
+line-height: 140.62%;
+
+text-align: center;
+}
+.PS {
+    position: absolute;
+left: 50.42%;
+right: 42.57%;
+top: 86.59%;
+bottom: 8.54%;
+
+font-family: 'Gilroy';
+font-size: 14px;
+line-height: 140.62%;
+
+text-align: center;
+}
+
+@font-face {
+    font-family: "HomemadeApple-Regular";
+    src: url("fonts/HomemadeApple-Regular.ttf")
+}
+@font-face {
+    font-family: 'Gilory';
+    src: url("fonts/Gilroy-Regular.ttf")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
